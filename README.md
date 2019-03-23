@@ -30,3 +30,8 @@ In the end, you have a system where:
 * You can rollback to any previous deployment by re-executing the corresponding
   job in Cloud Build. A rollback also updates the _production_ branch to
   truthfully reflect the history of deployments.
+
+To run cloud build locally:
+```
+cloud-build-local --config=./cloudbuild.yaml .
+```
